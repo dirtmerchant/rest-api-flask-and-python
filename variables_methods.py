@@ -15,4 +15,12 @@ single_quotes = 'strings can have single quotes'
 def my_print_method(my_argument):
     print(my_argument)
 
-my_print_method("hello, world!")
+# my_print_method("hello, world!")
+
+def my_multiply_method(number_one, number_two):
+    return number_one * number_two
+
+result = my_multiply_method(5, 3)
+# print(result)
+
+my_print_method(my_multiply_method(5,3))
