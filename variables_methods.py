@@ -12,7 +12,7 @@ single_quotes = 'strings can have single quotes'
 
 ##
 
-def my_print_method(my_parameter):
-    print(my_parameter)
+def my_print_method(my_argument):
+    print(my_argument)
 
-my_print_method()
+my_print_method("hello, world!")
