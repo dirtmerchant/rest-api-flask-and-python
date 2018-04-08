@@ -13,7 +13,6 @@ single_quotes = 'strings can have single quotes'
 ##
 
 def my_print_method():
-    print("Hello")
-    print("World")
+    print(my_parameter)
 
 my_print_method()
