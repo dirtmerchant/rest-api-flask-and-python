@@ -13,6 +13,14 @@ tuple_grades = (77, 80, 90, 95, 100)
 #set unique and unordered
 set_grades = {77, 80, 90, 100, 100}
 
-grades[0] = 60
+set_grades.add(60)
+set_grades.add(60)
+#print(set_grades)
 
-print(grades[0])
+## Set operations
+
+your_lottery_numbers = {1, 2, 3, 4, 5}
+winning_numbers = {1, 3, 5, 7, 9, 11}
+
+#print(your_lottery_numbers.intersection(winning_numbers))
+print(your_lottery_numbers.union(winning_numbers))
