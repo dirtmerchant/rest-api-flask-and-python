@@ -13,7 +13,8 @@ tuple_grades = (77, 80, 90, 95, 100)
 #set unique and unordered
 set_grades = {77, 80, 90, 100, 100}
 
-print(sum(grades) / len(grades))
+#print(sum(grades) / len(grades))
 grades.append(108)
 
-print(set_grades)
+tuple_grades = tuple_grades + (100,)
+print(tuple_grades)
